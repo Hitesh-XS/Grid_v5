@@ -46,8 +46,3 @@ Calculates the spatial-temporal anomaly threshold to determine the probability t
     * `[75 - 100]` $\rightarrow$ **CRITICAL**
 
 ---
-
-## 🚀 Training Engine & Validation Strategy
-
-### Time-Series Cross-Validation (Phase 9)
-Standard K-Fold cross-validation introduces fatal data leakage when training over historical traffic flows. GridV1 strictly enforces an expanding window `TimeSeriesSplit` mechanism. Models evaluating April events are exclusively trained on data spanning January through March.
