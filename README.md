@@ -1,6 +1,7 @@
 ### Task A (Primary): Congestion Severity Classifier
 Predicts four categorical severity tiers: `LOW`, `MEDIUM`, `HIGH`, or `CRITICAL`. Powered by a soft-voting ensemble comprising **CatBoost (40%)**, **LightGBM (30%)**, and **XGBoost (30%)**.
 
+
 ### Task B: Resource Allocation Engine
 Predicts structural response configurations instantly upon incident registration:
 * `officers_needed` (Integer)
